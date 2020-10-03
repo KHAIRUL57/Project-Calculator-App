@@ -1,0 +1,86 @@
+.keyboard{
+    background-color:rgb(180, 180, 180);
+    padding-left: 0.3vw;
+    line-height: 0.8;
+    
+}
+
+.button{
+    width: 6vw;
+    height: 7vw;
+    font-size: 5vh;
+    outline: none;
+    border-radius: 1.5vw;
+    margin-left: 0.5vw;
+    background-color: rgb(128, 128, 128);
+    color: rgb(255, 255, 239);
+}
+.button-back{
+    width: 12.5vw;
+    height: 5vw;
+    margin-left: 7px;
+    outline: none;
+    margin-bottom: 0.5vw;
+    border-radius: 1.5vw;
+    font-size: 5vh;
+    background-color:rgb(252, 165, 3);
+    color: rgb(255, 255, 239);
+}
+.button-1{
+    width: 6vw;
+    height: 7vw;
+    font-size: 5vh;
+    outline: none;
+    margin-left: 0.5vw;
+    border-radius: 1.5vw;
+    margin-bottom: 0.5vw;
+    background-color:rgb(252, 165, 3);
+    color: rgb(255, 255, 239);
+}
+.button-hasil{
+    width: 6vw;
+    height: 7vw;
+    outline: none;
+    font-size: 5vh;
+    border-radius: 1.5vw;
+    margin-left: 0.5vw;
+    margin-bottom: 0.5vw;
+    background-color: rgb(128, 128, 128);
+    color: rgb(255, 255, 239);
+}
+.button-hasil1{
+    width: 6vw;
+    height: 7vw;
+    outline: none;
+    font-size: 5vh;
+    border-radius: 1.5vw;
+    margin-left: 0.5vw;
+    margin-bottom: 0.5vw;
+    background-color: rgb(128, 128, 128);
+    color: rgb(255, 255, 239);
+}
+@media screen and (max-width: 480px){
+    .button{
+        width: 24%;
+        height: 73px;
+        margin-left: 4px;
+
+    }
+    .button-back{
+        width: 48%;
+        height: 73px;
+    }
+    .button-1{
+        width: 24%;
+        height: 73px;
+    }
+    .button-hasil{
+        width: 24%;
+        height: 73px;
+        margin-left: 4px;
+    }
+    .button-hasil1{
+        width: 24%;
+        height: 73px;
+    }
+}
